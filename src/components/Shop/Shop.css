@@ -3,20 +3,25 @@
 	grid-template-columns: 4fr 1fr;
 }
 .products-container{
-	overflow-y: scroll;
+	/* overflow-y: scroll;
 	-ms-overflow-style: none;
   	scrollbar-width: none;
-	scroll-behavior: smooth;
-	height: 80vh;
+	scroll-behavior: smooth; */
+	/* height: 80vh; */
 	display: grid;
 	grid-template-columns: repeat(3, 1fr);
 	gap: 45px;
 	margin: 20px 50px;
 }
-.products-container::-webkit-scrollbar {
+/* .products-container::-webkit-scrollbar {
 	display: none;
-  }
-  
+  } */
+
+
+.cart-container{
+	background-color: rgba(255, 153, 0, 0.3);
+	
+}
 
 @media screen and (max-width:1100px) {
 	.products-container{
